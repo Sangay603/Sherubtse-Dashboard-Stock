@@ -3,42 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capstone Analysis Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Sherubtse College Stock Market Dashboard</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
 <body>
-    <div class="dashboard-container">
-        <aside class="sidebar">
-            <div class="avatar-container">
-                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User Avatar" class="avatar">
-                <div class="username">Welcome, User</div>
-            </div>
-            <nav>
-                <a href="#" class="active"><i class="fas fa-home"></i> Home</a>
-                <a href="#"><i class="fas fa-chart-bar"></i> Analysis</a>
-                <a href="#"><i class="fas fa-file-alt"></i> Reports</a>
-                <a href="#"><i class="fas fa-cog"></i> Settings</a>
-            </nav>
-        </aside>
-        <main class="main-content">
-            <div class="header">
-                <div class="header-row">
-                    <h1>Capstone Analysis Dashboard</h1>
-                    <div class="search-bar">
-                        <input type="text" placeholder="Search...">
-                        <button><i class="fas fa-search"></i></button>
-                    </div>
-                </div>
-            </div>
-            <div id="notebook-content">
-                <!-- Notebook output will be loaded here by JavaScript -->
-            </div>
-            <footer class="footer">
-                &copy; 2024 Capstone Dashboard. All rights reserved.
-            </footer>
-        </main>
-    </div>
-    <script src="app.js"></script>
+    {%app_entry%}
+    <footer>
+        {%config%}
+        {%scripts%}
+        {%renderer%}
+    </footer>
 </body>
 </html> 

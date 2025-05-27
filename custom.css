@@ -1,0 +1,86 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css'); 
+
+.custom-datepicker {
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.custom-datepicker input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #2196f3;
+    border-radius: 4px;
+    background: rgba(33, 150, 243, 0.1);
+    color: white;
+}
+
+.date-range-info {
+    color: #2196f3;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.control-item.info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.SingleDatePicker_picker {
+    z-index: 9999 !important;
+}
+
+/* Calendar styles */
+.CalendarMonth_caption {
+    color: white !important;
+}
+
+.DayPicker_weekHeader {
+    color: #2196f3 !important;
+}
+
+.CalendarDay {
+    background: rgba(33, 150, 243, 0.1) !important;
+    border: 1px solid #2196f3 !important;
+    color: white !important;
+}
+
+.CalendarDay__selected {
+    background: #2196f3 !important;
+    color: white !important;
+}
+
+.CalendarDay:hover {
+    background: rgba(33, 150, 243, 0.3) !important;
+}
+
+.DayPickerNavigation_button {
+    background: rgba(33, 150, 243, 0.2) !important;
+    border: 1px solid #2196f3 !important;
+}
+
+.DayPickerNavigation_button:hover {
+    background: rgba(33, 150, 243, 0.4) !important;
+}
+
+.DayPickerNavigation_svg {
+    fill: #2196f3 !important;
+}
+
+/* Additional calendar improvements */
+.CalendarDay__today {
+    border: 2px solid #2196f3 !important;
+    font-weight: bold;
+}
+
+.CalendarMonth_caption strong {
+    font-weight: bold;
+    color: #2196f3 !important;
+}
+
+.DayPicker_weekHeader_li {
+    color: #2196f3 !important;
+}
+
+.CalendarDay__outside {
+    opacity: 0.5;
+} 
